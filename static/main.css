@@ -24,13 +24,14 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     gap: 1em;
 }
 
 .video-block__other__text {
-    width: 65%;
+    width: 88%;
     text-align: center;
-    font-size: 2.5em;
+    font-size: 3.4em;
     color: white;
 }
 
@@ -81,18 +82,59 @@ main{
     margin: 3em 0;
     display: flex;
     width: 100%;
-    height: 80vh;
+    height: 100vh;
 }
 
 .text-image-sbs__text {
     max-width: 50%;
     width: 50%;
+    height: 100%;
+    background-color: #A2A39A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text-image-sbs__text__inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 55%;
+    height: 45%;
+    /* background: cyan; */
+    color: white;
+    text-align: center;
+    gap: 1.6em;
+    line-height: 1.5em;
+}
+
+.text-image-sbs__text__inner .heading{
+    font-size: 1.5em;
+}
+
+.text-image-sbs__text__inner .normalline{
+    font-size: 1em;
+}
+
+.text-image-sbs__text__inner button{
+    font-size: 0.8em;
+    font-weight: bold;
+    height: 19%;
+    width: 48%;
+    background: #2A312E;
+    border: 0px;
+    color: white;
 }
 
 .text-image-sbs__image {
     max-width: 50%;
     width: 50%;
+    height: 100%;
 }
 .text-image-sbs__image img{
     max-width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
 }
