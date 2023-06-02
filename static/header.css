@@ -6,6 +6,7 @@
 body{
     background: lightgoldenrodyellow;
     height: auto;
+    
 }
 /* Navbar */
 .head-unit{
@@ -14,6 +15,7 @@ body{
     font-size: 1.2em;
     position: sticky;
     top: 0px;
+    z-index: 1;
 }
 .head-unit__nav{
     height: 100%;
