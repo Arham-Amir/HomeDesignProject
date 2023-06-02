@@ -160,7 +160,7 @@ intro-block CSS
 
 .intro-block {
     margin: 5em 0;
-    height: 100vh;
+    height: 67vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -172,15 +172,15 @@ intro-block CSS
 }
 
 .intro-block1 {
-    height: 80%;
+    height: 100%;
     width: 91%;
     display: grid;
     grid-template-columns: calc(91% / 4) calc(91% / 4) calc(91% / 4) calc(91% / 4);
     grid-gap: 0 3%;
-    line-height: 1.9em;
 }
 .intro-block1__sec1 {
     height: 100%;
+    line-height: 1.9em;
     
 }
 .intro-block1__sec1 h5 {
@@ -190,7 +190,7 @@ intro-block CSS
 .intro-block1__sec1 p {
     font-size: 1.1em;
     font-weight: 300;
-    margin : 2em 0;
+    margin : 1.3em 0;
 }
 .intro-block1__sec1 button {
     font-size: 0.8em;
@@ -213,5 +213,27 @@ intro-block CSS
 
 .intro-block1 img {
     width:  calc(100% / 1);
-    height: calc(100% / 3);
+    height: calc(100% / 2.3);
+}
+
+.intro-block1 h6 {
+    width: 80%;
+    font-size: 1.3em;
+    font-weight: 500;
+    margin: 1em 0;
+    text-transform: uppercase;
+}
+.sec2-p{
+    font-size: 1em;
+    font-weight: 300;
+    margin : 1em 0;
+}
+.sec2-btn{
+    font-size: 0.8em;
+    font-weight: bold;
+    background: white;
+    /* height: 12%; */
+    /* width: 58%; */
+    border: 0px;
+    color: rgb(163, 101, 13);;
 }
