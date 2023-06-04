@@ -165,34 +165,41 @@ intro-block CSS
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    /* grid-template-columns: auto auto auto auto; */
-    /* padding: 4em 3em; */
-    /* background: darkslategrey; */
 }
 
-.intro-block1 {
+.news-block {
+    margin: 5em 0 8em 0;
+    height: 80vh;
+    font-size: 0.9em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-block1, .news-block1 {
     height: 100%;
     width: 91%;
     display: grid;
     grid-template-columns: calc(91% / 4) calc(91% / 4) calc(91% / 4) calc(91% / 4);
     grid-gap: 0 3%;
 }
-.intro-block1__sec1 {
+.intro-block1__sec1, .news-block1__sec1 {
     height: 100%;
     line-height: 1.9em;
     
 }
-.intro-block1__sec1 h5 {
+.intro-block1__sec1 h5, .news-block1__sec1 h5 {
     font-size: 1.6em;
     font-weight: 300;
 }
-.intro-block1__sec1 p {
+.intro-block1__sec1 p, .news-block1__sec1 p {
     font-size: 1.1em;
     font-weight: 300;
+    
     margin : 1.3em 0;
 }
-.intro-block1__sec1 button {
+.intro-block1__sec1 button, .news-block1__sec1 button {
     font-size: 0.8em;
     font-weight: bold;
     height: 12%;
@@ -201,39 +208,48 @@ intro-block CSS
     border: 0px;
     color: #2A312E;
 }
-.intro-block1__sec2 {
+.intro-block1__sec2, .news-block1__sec2 {
     height: 100%;
 }
-.intro-block1__sec3 {
+.intro-block1__sec3, .news-block1__sec3 {
     height: 100%;
 }
-.intro-block1__sec4 {
+.intro-block1__sec4, .news-block1__sec4 {
     height: 100%;
 }
 
-.intro-block1 img {
+.intro-block1 img, .news-block1 img {
     width:  calc(100% / 1);
-    height: calc(100% / 2.3);
+    height: calc(100% / 3.1);
 }
 
-.intro-block1 h6 {
+.intro-block1 h6, .news-block1 h6 {
     width: 80%;
     font-size: 1.3em;
     font-weight: 500;
     margin: 1em 0;
     text-transform: uppercase;
 }
-.sec2-p{
+.sec2-p {
     font-size: 1em;
     font-weight: 300;
     margin : 1em 0;
+    line-height: 1.6em;
+    width: 81%;
+    opacity: 97%;
+    
 }
-.sec2-btn{
+.sec2-btn {
     font-size: 0.8em;
     font-weight: bold;
     background: white;
     /* height: 12%; */
     /* width: 58%; */
     border: 0px;
-    color: rgb(163, 101, 13);;
+    color: rgba(163, 101, 13, 0.8);
+}
+
+.news-date {
+    margin : 0.8em 0 0 0;
+    opacity: 70%;
 }
