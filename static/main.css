@@ -320,7 +320,6 @@ CSS of Page Cards
     font-size: 0.9em;
 }
 
-/* #1F2221; */
 
 /* 
 End Of Page Cards
@@ -331,10 +330,9 @@ CSS of Fotter
 TOP
 */
 
-footer {
-    height: 75vh;
+.footer {
+    height: 80vh;
     display: flex;
-    /* justify-content: c; */
     align-items: center;
     background: #2A312E;
 }
@@ -347,12 +345,99 @@ footer {
     margin: 10vh 6vw;
 }
 
-.footer-top__box1 {
-    background: white;
+.footer-top h6 {
+    color: #998152;
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-bottom: 26%;
 }
+
+.footer-top p {
+    color: white;
+    font-size: 0.9em;
+    font-weight: 400;
+    margin-bottom: 15%;
+    text-transform: uppercase;
+}
+
 .footer-top__box2 {
-    background: white;
+    display: flex;
+    justify-content: flex-start;
+    gap: 24%;
 }
-.footer-top__box3 {
-    background: white;
+
+
+.footer-top__box1__icons {
+    display: flex;
+    margin-top: 20%;
+    justify-content: start;
+    align-items: center;
+    gap: 12%;
+}
+
+.footer-top__box1__icons li {
+    list-style: none;
+    color: white;
+}
+
+.fa-facebook-f {
+    color: #2A312E;
+    padding: 4px 5px 0 5px;
+    border-radius: 31px;
+    background-color: white;
+}
+
+.fa-instagram {
+    font-size: 1.4em;
+}
+
+.fa-linkedin-in {
+    font-size: 1.2em;
+}
+
+
+.two-p-sections {
+    display: flex;
+    align-items: center;
+}
+
+.two-p-sections p {
+    width: 50%;
+    text-transform: capitalize;
+    margin-bottom: 3%;
+    font-size: 1em;
+}
+
+.footer-address {
+    margin-top: 10%;
+    font-size: 1.1em;
+    line-height: 1.6em;
+}
+
+.footer-top__box3 ul {
+    display: flex;
+    justify-content: flex-start;
+    gap: 25px;
+
+}
+
+.footer-top__box3 ul li {
+    list-style: none;
+}
+
+.footer-top__box3 ul li img {
+    max-height: 28px
+}
+
+
+/* ---------------- TOP END */
+/* 
+Footer Bottom CSS
+*/
+
+.footer-bottom {
+    height: 20vh;
+    background: #1F2221;
+    color: white;
+    
 }
