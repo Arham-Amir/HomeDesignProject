@@ -156,6 +156,8 @@ End Of Side By Side
 
 /* 
 intro-block CSS
+---
+news-block CSS
 */
 
 .intro-block {
@@ -177,29 +179,38 @@ intro-block CSS
     align-items: center;
 }
 
-.intro-block1, .news-block1 {
+.intro-block1,
+.news-block1 {
     height: 100%;
     width: 91%;
     display: grid;
     grid-template-columns: calc(91% / 4) calc(91% / 4) calc(91% / 4) calc(91% / 4);
     grid-gap: 0 3%;
 }
-.intro-block1__sec1, .news-block1__sec1 {
+
+.intro-block1__sec1,
+.news-block1__sec1 {
     height: 100%;
     line-height: 1.9em;
-    
+
 }
-.intro-block1__sec1 h5, .news-block1__sec1 h5 {
+
+.intro-block1__sec1 h5,
+.news-block1__sec1 h5 {
     font-size: 1.6em;
     font-weight: 300;
 }
-.intro-block1__sec1 p, .news-block1__sec1 p {
+
+.intro-block1__sec1 p,
+.news-block1__sec1 p {
     font-size: 1.1em;
     font-weight: 300;
-    
-    margin : 1.3em 0;
+
+    margin: 1.3em 0;
 }
-.intro-block1__sec1 button, .news-block1__sec1 button {
+
+.intro-block1__sec1 button,
+.news-block1__sec1 button {
     font-size: 0.8em;
     font-weight: bold;
     height: 12%;
@@ -208,37 +219,47 @@ intro-block CSS
     border: 0px;
     color: #2A312E;
 }
-.intro-block1__sec2, .news-block1__sec2 {
-    height: 100%;
-}
-.intro-block1__sec3, .news-block1__sec3 {
-    height: 100%;
-}
-.intro-block1__sec4, .news-block1__sec4 {
+
+.intro-block1__sec2,
+.news-block1__sec2 {
     height: 100%;
 }
 
-.intro-block1 img, .news-block1 img {
-    width:  calc(100% / 1);
+.intro-block1__sec3,
+.news-block1__sec3 {
+    height: 100%;
+}
+
+.intro-block1__sec4,
+.news-block1__sec4 {
+    height: 100%;
+}
+
+.intro-block1 img,
+.news-block1 img {
+    width: calc(100% / 1);
     height: calc(100% / 3.1);
 }
 
-.intro-block1 h6, .news-block1 h6 {
+.intro-block1 h6,
+.news-block1 h6 {
     width: 80%;
     font-size: 1.3em;
     font-weight: 500;
     margin: 1em 0;
     text-transform: uppercase;
 }
+
 .sec2-p {
     font-size: 1em;
     font-weight: 300;
-    margin : 1em 0;
+    margin: 1em 0;
     line-height: 1.6em;
     width: 81%;
     opacity: 97%;
-    
+
 }
+
 .sec2-btn {
     font-size: 0.8em;
     font-weight: bold;
@@ -250,6 +271,49 @@ intro-block CSS
 }
 
 .news-date {
-    margin : 0.8em 0 0 0;
+    margin: 0.8em 0 0 0;
     opacity: 70%;
 }
+
+/* 
+End Of Side By Side
+*/
+
+/* 
+CSS of Page Cards
+*/
+
+.page-cards {
+    background: #F4F4F4;
+}
+.cards{
+    padding: 16vh 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.8em;
+    box-shadow: 0px 10px 40px 0px rgba(42,49,46,0.3);
+}
+.cards__card{
+    height: 85vh;
+    width: 44%;
+    background: white;
+}
+.cards img{
+    height: 75%;
+    width: 100%;
+}
+.cards h6{
+    margin: 1.2em 1em 0.6em 1.3em;
+    font-size: 1.2em;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.cards p{
+    margin: 0 1.8em;
+    font-size: 0.9em;
+}
+
+/* #2A312E; */
+/* #1F2221; */
