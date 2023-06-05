@@ -286,34 +286,73 @@ CSS of Page Cards
 .page-cards {
     background: #F4F4F4;
 }
-.cards{
+
+.cards {
     padding: 16vh 0;
     display: flex;
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 1.8em;
-    box-shadow: 0px 10px 40px 0px rgba(42,49,46,0.3);
 }
-.cards__card{
+
+.cards__card {
     height: 85vh;
     width: 44%;
     background: white;
+    box-shadow: 0px 10px 40px 0px rgba(42, 49, 46, 0.3);
 }
-.cards img{
+
+.cards img {
     height: 75%;
     width: 100%;
 }
-.cards h6{
+
+.cards h6 {
     margin: 1.2em 1em 0.6em 1.3em;
     font-size: 1.2em;
     font-weight: 400;
     text-transform: uppercase;
 }
-.cards p{
+
+.cards p {
     margin: 0 1.8em;
     font-size: 0.9em;
 }
 
-/* #2A312E; */
 /* #1F2221; */
+
+/* 
+End Of Page Cards
+*/
+
+/* 
+CSS of Fotter
+TOP
+*/
+
+footer {
+    height: 75vh;
+    display: flex;
+    /* justify-content: c; */
+    align-items: center;
+    background: #2A312E;
+}
+
+.footer-top {
+    height: 60%;
+    display: grid;
+    grid-template-columns: 22vw 40vw 22vw;
+    gap: 2vw;
+    margin: 10vh 6vw;
+}
+
+.footer-top__box1 {
+    background: white;
+}
+.footer-top__box2 {
+    background: white;
+}
+.footer-top__box3 {
+    background: white;
+}
