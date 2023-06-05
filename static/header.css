@@ -4,7 +4,6 @@
 }
 
 body{
-    /* background: lightgoldenrodyellow; */
     height: auto;
     font-family: 'Roboto', sans-serif;
 }
@@ -12,10 +11,12 @@ body{
 .head-unit{
     height: 15vh;
     background: white;
-    font-size: 1.0em;
+    font-size: 0.9em;
     font-weight: 500;
     position: sticky;
+    text-transform: uppercase;
     top: 0px;
+    box-shadow: 0px 0px 3px 0px rgba(42, 49, 46, 0.3);
     z-index: 1;
 }
 .head-unit__nav{
@@ -31,7 +32,7 @@ body{
 .head-unit__nav__dropown-elements > ul{
     display: flex;
     gap: 4vw;
-    margin-left: 4vw;
+    margin-left: 5vw;
 }
 .head-unit__nav__dropown-elements > ul > li{
     list-style: none;
@@ -50,13 +51,13 @@ body{
 /* sec 3 */
 .head-unit__nav__icons{
     width: 35%;
-    
+    font-size: 1.3em;
 } 
 .head-unit__nav__icons > ul{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    gap: 5vw;
+    gap: 6vw;
     margin-right: 3vw;
 }
 .head-unit__nav__icons > ul > li{

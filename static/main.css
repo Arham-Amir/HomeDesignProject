@@ -439,5 +439,34 @@ Footer Bottom CSS
     height: 20vh;
     background: #1F2221;
     color: white;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-bottom__div {
+    height: 10vh;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-bottom ul {
+    display: flex;
+    gap: 4%;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+.footer-bottom ul li {
+    list-style: none;
+}
+
+.footer-bottom p{
+    margin-top: 2%;
+    color: #A2A39A;
+    font-size: 0.8em;
+}
+.fa-at{
+    font-size: 1.3em;
 }
