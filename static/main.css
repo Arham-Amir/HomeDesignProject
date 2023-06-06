@@ -558,7 +558,7 @@ Footer Bottom CSS
 
 @media (min-width: 2112px) {
     body {
-        font-size: 1.7em;
+        font-size: 1.5em;
     }
 
     .logo {
@@ -593,7 +593,7 @@ Footer Bottom CSS
 
 @media (min-width: 1024px) and (max-width: 1365px) {
     body {
-        font-size: 0.9em;
+        font-size: 0.8em;
     }
 
     .logo {
