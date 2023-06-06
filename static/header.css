@@ -34,6 +34,9 @@ body{
     gap: 4vw;
     margin-left: 5vw;
 }
+.head-unit__nav__dropown-elements > ul:last-child{
+    display: none;
+}
 .head-unit__nav__dropown-elements > ul > li{
     list-style: none;
 }
