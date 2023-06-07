@@ -253,31 +253,15 @@ news-block CSS
     border: 0px;
     color: #2A312E;
     z-index: 1;
+    transition: background-color 300ms ease-in;
 }
 
-.intro-block1__sec1 button::before,
-.news-block1__sec1 button::before {
-    content: '';
-    position: absolute;
-    right: 0%;
-    left: 0%;
-    bottom: 0%;
-    top: 100%;
-    z-index: 0;
-    background-color: #2A312E;
-    transition: top 100ms ease-in;
-}
 
 .intro-block1__sec1 button:hover,
 .news-block1__sec1 button:hover {
-    color: white;
+    background: lightgray;
 }
 
-.intro-block1__sec1 button:hover:before,
-.news-block1__sec1 button:hover:before {
-    top: 0%;
-    color: white;
-}
 
 .intro-block1__sec2,
 .news-block1__sec2 {
