@@ -103,3 +103,11 @@ body{
 .head-unit__nav__icons > ul > li > a.icon-2:hover{
 font-size: 1.3em;
 }
+
+.mob-logo{
+    display: none;
+}
+
+.logo, .f-logo{
+    display: block;
+}
