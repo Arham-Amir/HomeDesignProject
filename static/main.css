@@ -14,7 +14,7 @@ Video Section
 .video-block__media {
     height: 100%;
     width: 100%;
-    object-fit: fill;
+    object-fit: cover;
 }
 
 .video-block__other {
@@ -153,22 +153,15 @@ Half Text Image Side By Side
     border: 0px;
     position: relative;
     color: white;
+    transition: background-color 300ms ease-in;
 }
 
-.text-image-sbs__text__inner button::before {
-    content: '';
-    position: absolute;
-    right: 0%;
-    left: 0%;
-    bottom: 0%;
-    top: 100%;
-    background-color: #1F2221;
-    transition: top 100ms ease-in;
+.text-image-sbs__text__inner button:hover {
+    background-color: black;
 }
 
-.text-image-sbs__text__inner button:hover:before {
-    top: 0%;
-}
+
+
 
 .text-image-sbs__image {
     max-width: 50%;
@@ -1150,6 +1143,16 @@ CSS of Page Cards
 @media (max-width: 420px) {
     body {
         font-size: 0.6em;
+    }
+    .video-block__other__search__bar>input {
+        height: 55px;
+        margin: 10px 0 20px 0;
+        width: 90%;
+    }
+    .video-block {
+        height: 65vh;
+        width: 100%;
+        position: relative;
     }
     .video-block__other__search {
         width: 100%;
