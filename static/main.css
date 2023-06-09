@@ -2,6 +2,35 @@ main {
     width: 100%;
 }
 
+.talk-to-us {
+    z-index: 2;
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    font-size: xx-large;
+    color: darkcyan;
+    animation: bounce 4s infinite;
+}
+.style__talk-to-us:hover::before, .style__talk-to-us:active::before{
+    content: "\f00d";
+    color: red;
+    border: 1px solid red;
+    border-radius: 25px;
+    padding: 8px;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    25%, 75% {
+        transform: translateY(-20px);
+    }
+    50% {
+        transform: translateY(0);
+    }
+}
+
 /* 
 Video Section 
 */
@@ -380,7 +409,7 @@ TOP
     height: 80vh;
     display: flex;
     align-items: center;
-    background: #2A312E;
+    background: linear-gradient(to right bottom, #060606, #365548);
 }
 
 .footer-top {
@@ -712,6 +741,7 @@ Footer Bottom CSS
     body {
         font-size: 0.7em;
     }
+
     .video-block__other__search {
         flex-direction: column;
         align-items: center;
@@ -720,10 +750,12 @@ Footer Bottom CSS
         justify-content: flex-start;
         background: white;
     }
+
     .video-block__other__search__btns {
         width: 80%;
         margin: auto;
     }
+
     .news-block {
         margin: 0 0 0 0;
     }
@@ -1110,10 +1142,12 @@ CSS of Page Cards
         height: 45%;
         width: 35%;
     }
+
     .video-block__other__search {
         width: 100%;
         height: auto;
     }
+
     .text-image-sbs__text__inner {
         height: 260px;
         width: 85%;
@@ -1144,20 +1178,24 @@ CSS of Page Cards
     body {
         font-size: 0.6em;
     }
+
     .video-block__other__search__bar>input {
         height: 55px;
         margin: 10px 0 20px 0;
         width: 90%;
     }
+
     .video-block {
         height: 65vh;
         width: 100%;
         position: relative;
     }
+
     .video-block__other__search {
         width: 100%;
         height: auto;
     }
+
     .mob-logo,
     .f-logo {
         height: 160px;
